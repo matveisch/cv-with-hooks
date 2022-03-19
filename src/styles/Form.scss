@@ -1,0 +1,23 @@
+form {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+
+  label {
+    grid-column: 1 / 2;
+  }
+
+  input {
+    grid-column: 2 / 4;
+  }
+
+  #buttons {
+    grid-column: 1 / 4;
+    display: grid;
+
+    button {
+      width: 100px;
+      grid-column: 2 / 3;
+    }
+  }
+}

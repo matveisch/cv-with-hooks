@@ -1,0 +1,9 @@
+#app {
+  display: grid;
+  justify-content: center;
+
+  #components {
+    display: grid;
+    gap: 40px;
+  }
+}

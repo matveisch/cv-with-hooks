@@ -1,0 +1,10 @@
+#app {
+  display: grid;
+  justify-content: center;
+}
+#app #components {
+  display: grid;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=App.css.map */

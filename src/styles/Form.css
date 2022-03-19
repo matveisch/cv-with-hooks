@@ -1,0 +1,21 @@
+form {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+}
+form label {
+  grid-column: 1/2;
+}
+form input {
+  grid-column: 2/4;
+}
+form #buttons {
+  grid-column: 1/4;
+  display: grid;
+}
+form #buttons button {
+  width: 100px;
+  grid-column: 2/3;
+}
+
+/*# sourceMappingURL=Form.css.map */
