@@ -1,0 +1,2 @@
+#app{display:grid;justify-content:center}#app #components{grid-gap:40px;display:grid;gap:40px}form{grid-gap:10px;display:grid;gap:10px;grid-template-columns:100px 100px 100px}form label{grid-column:1/2}form input{grid-column:2/4}form #buttons{display:grid;grid-column:1/4}form #buttons button{grid-column:2/3;width:100px}
+/*# sourceMappingURL=main.d75cbf76.css.map*/
